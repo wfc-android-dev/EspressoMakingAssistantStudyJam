@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Sienna</item>
+        <item name="colorPrimaryDark">@color/SaddleBrown</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for header text in Espresso Making Assistant -->
+    <style name="HeaderStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/Sienna</item>
+    </style>
+
+    <!-- Style for tip button text in Espresso Making Assistant -->
+    <style name="TipButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@color/Sienna</item>
+    </style>
+
+</resources>
