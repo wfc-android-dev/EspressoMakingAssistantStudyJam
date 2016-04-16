@@ -1,1 +1,19 @@
-idea for this project
+Idea for the Espresso Making Assistant:
+
+  I am a coffee geek that is fond of espresso style of coffee making. I have choosen the following 6 espresso making tips for my android app. They are as the following:
+  
+  1. Bean Preparation (what kind of grinder is required for proper espresso ground, and how fine to grind the beans)
+  2. Bean Selection (Suggestion on what kind of beans to use, however it will be subjective)
+  3. Machine Selection (Suggestion on the best machine for the money spent)
+  4. Proper Tamping (the amount the force and the procedure involved with tamping)
+  5. Brewing Temp (espresso brewing temp)
+  6. Extration Time (total espresso extraction time for a double shot espresso 15g -18g)
+  
+  
+  This android app will have a simple 6 imagebuttons (eachbutton for one of the 6 espresso making tips). All images will be converted to png file format and reduce the resolution to 72 dpi for responsiveness. The main layout will have the 6 imagesbuttons, in addition there will be 7 buttons (6 for the 6 espresso making tips, and aligned right below the images buttons / one last button for sending the tips via email intent).
+  
+  There will be 6 sub-activities launches when the user clicks on either the tip imagebutton or the tip button. Each of the 6 sub-activities will launch a similar view with title of the specific tip, and imageview of the tip, a TextView with the text of the tip, and lastly a button for sending this particular tip information via email intent.
+  
+  This Android app is target for API 23 (Marshmallow) Android 6.0 and with minimum SDK set to API 21 (Android 5.0 Lollipop).
+  
+  The app has been tested on AVDs with API 21, 22, 23 plus a real device runing API 22 without issues. The email intent feature is not available with AVDs and should be tested on a real device running API 21 or later.
