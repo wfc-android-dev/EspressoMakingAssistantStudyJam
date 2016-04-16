@@ -156,8 +156,7 @@ public class MainActivity extends AppCompatActivity {
         tipButton4.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-                Toast.makeText(MainActivity.this,
-                        "TipButton4 is clicked!", Toast.LENGTH_SHORT).show();
+
 
                 Intent i = new Intent(MainActivity.this, Tip4Activity.class);
                 startActivity(i);
