@@ -169,8 +169,6 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View arg0) {
 
-                Toast.makeText(MainActivity.this,
-                        "ImageButton5 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip5Activity.class);
                 startActivity(i);
