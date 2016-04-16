@@ -1,3 +1,19 @@
+/*
+ * Copyright (C) 2015 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.example.android.espressomakingassistant;
 
 import android.content.Intent;
@@ -11,8 +27,13 @@ import android.widget.ImageButton;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-
+/**
+ * This app suggests 6 tips for making great espresso to the user
+ * It also allows the user to email the tip/tips.
+ */
 public class MainActivity extends AppCompatActivity {
+
+    //    6 ImageButtons and 6 Buttons declaration for the 6 tips images and buttons
     ImageButton imageButton1;
     ImageButton imageButton2;
     ImageButton imageButton3;
@@ -32,13 +53,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /**
+         * call this method to start ImageButtons and Buttons listener
+         */
         addListenerOnButton();
 
 
     }
 
     /**
-     *
+     * This void method sets up the buttons listeners
      */
     public void addListenerOnButton() {
 
@@ -59,8 +83,6 @@ public class MainActivity extends AppCompatActivity {
         imageButton1.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "ImageButton1 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip1Activity.class);
                 startActivity(i);
@@ -71,8 +93,6 @@ public class MainActivity extends AppCompatActivity {
         tipButton1.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "TipButton1 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip1Activity.class);
                 startActivity(i);
@@ -84,8 +104,6 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View arg0) {
 
-//                Toast.makeText(MainActivity.this,
-//                        "ImageButton2 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip2Activity.class);
                 startActivity(i);
@@ -96,8 +114,7 @@ public class MainActivity extends AppCompatActivity {
         tipButton2.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "TipButton2 is clicked!", Toast.LENGTH_SHORT).show();
+
 
                 Intent i = new Intent(MainActivity.this, Tip2Activity.class);
                 startActivity(i);
@@ -109,9 +126,6 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View arg0) {
 
-//                Toast.makeText(MainActivity.this,
-//                        "ImageButton3 is clicked!", Toast.LENGTH_SHORT).show();
-
                 Intent i = new Intent(MainActivity.this, Tip3Activity.class);
                 startActivity(i);
 
@@ -121,8 +135,7 @@ public class MainActivity extends AppCompatActivity {
         tipButton3.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "TipButton3 is clicked!", Toast.LENGTH_SHORT).show();
+
 
                 Intent i = new Intent(MainActivity.this, Tip3Activity.class);
                 startActivity(i);
@@ -133,9 +146,6 @@ public class MainActivity extends AppCompatActivity {
         imageButton4.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-
-//                Toast.makeText(MainActivity.this,
-//                        "ImageButton4 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip4Activity.class);
                 startActivity(i);
@@ -171,8 +181,6 @@ public class MainActivity extends AppCompatActivity {
         tipButton5.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "TipButton5 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip5Activity.class);
                 startActivity(i);
@@ -184,9 +192,6 @@ public class MainActivity extends AppCompatActivity {
 
             public void onClick(View arg0) {
 
-//                Toast.makeText(MainActivity.this,
-//                        "ImageButton6 is clicked!", Toast.LENGTH_SHORT).show();
-
                 Intent i = new Intent(MainActivity.this, Tip6Activity.class);
                 startActivity(i);
 
@@ -196,8 +201,6 @@ public class MainActivity extends AppCompatActivity {
         tipButton6.setOnClickListener(new OnClickListener() {
 
             public void onClick(View arg0) {
-//                Toast.makeText(MainActivity.this,
-//                        "TipButton6 is clicked!", Toast.LENGTH_SHORT).show();
 
                 Intent i = new Intent(MainActivity.this, Tip6Activity.class);
                 startActivity(i);
@@ -208,7 +211,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * this void method concatenates strings and launches an email intent
+     *
+     * @param view - the current view
+     */
     public void sendMessage(View view) {
+
+        // declare allthetips and concatenates all 6 tips from string resources
 
         String allthetips = "1. " + (String) getText(R.string.tip_one)
                 + "\n\n" + (String) getText(R.string.bean_preparation)
@@ -227,7 +237,9 @@ public class MainActivity extends AppCompatActivity {
         // Use an intent to launch an email app.
 
 
-        // Send the order summary in the email body.
+        // Collect the 6 tips and concatenate the strings, setup email subject
+        // and prompt the user to choose an email app to send the espresso making tips
+
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_SUBJECT, (String) getText(R.string.six_tips));
