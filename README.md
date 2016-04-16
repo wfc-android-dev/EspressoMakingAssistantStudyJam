@@ -11,4 +11,6 @@ tip via email intent.
 The sendMessage button at the bottom of the scrollable main activity view, will gather the information on all 6 tips and allow
 the user to send the six tips via email.
 
+The six second activities (for each of the six espesso making tips) will have a title(TextView), an image (ImageView), the text about the specific topic (TextView) and finally a button for email intent.
+
 This app does not require permissions. The target sdk is 23(Marshmallow) and the minimum sdk is 21 (Android 5.0 Lollipop)
