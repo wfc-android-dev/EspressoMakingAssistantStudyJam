@@ -1,4 +1,6 @@
-# EspressoMakingAssistantStudyJam Espresso Making Assistant
+# EspressoMakingAssistantStudyJam 
+
+Espresso Making Assistant
 
 This Android App suggests 6 tips to great espresso making. The main
 activity screen consists of 6 imagebutton, 6 buttons and a sendmessage
