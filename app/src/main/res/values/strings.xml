@@ -8,55 +8,253 @@
     <string name="tip_four">Proper Tamping</string>
     <string name="tip_five">Brew Temperature</string>
     <string name="tip_six">Extraction Time</string>
-      <string name="bean_preparation">The making of espresso is both a science and an art. Over the years
-they have found that precision is required to make a great espresso.
-There are four factors that affect the making of a great shot. They
-are also called the four M’s. The first factor is Macinazione or the
-proper grinding of the beans. Great baristas in fact will only grind
-beans for an espresso right before using them. 30 seconds after they
-have been ground, the beans are already too stale for a good espresso.
-The proper grind is between fine and powdery. The grind has to be
-uniform in order to insure the best taste. Instant powder will
-definitely make an awful espresso.
+      <string name="bean_preparation">Espresso Coffee Ground\n\n
+
+It is better to have a good quality grinder that produces a uniformly
+consistent grind than having an very expensive espresso machine while
+skimping with a low grade grinder. The most critical part of bean
+preparation is the choice of coffee grinder. \n\nUneven grind can cause
+issues such as too fast espresso extraction, and channeling in the
+coffee puck (as pressurized water will find the least path of
+resistance). So if one has limited budget when first starting out
+making espresso at home, it is better to spend the money on a good
+grinder and paired it with a starter semi-automatic espresso machine.\n\n
+
+Blade grinder is to be avoided at all cost, as it heats up the coffee
+in the process of chopping the beans. This process makes it impossible
+for a uniform consistent fine ground that espresso making requires.\n\n
+
+Burr grinders (either flat burrs or conical burrs) are the better
+choices for espresso ground preparation. How fine to grind the coffee
+depends on the bean selection and specific espresso machine. It is a
+process that needs to be dialed in by trial and error. \n\nThe best test
+for grind fineness is extraction time. The grind is said to be dialed
+in if the espresso coffee extraction time for a double shot (15g to
+18g) is between 25 - 35 seconds. \n\nAgain it is a judge call, and one
+only gets good at dialing in the grinder for espresso with experience.
+The fineness of grind also needs to be adjusted slightly when the
+barista change to a different blend of beans.\n\n
       </string>
   <string name="bean_selection">
-        The second factor is Miscela or the coffee blend. Good beans means
-better tasting coffee. Perfectly logical, right?
+Selecting the Right Coffee for Espresso\n\n
+
+Many espresso blends are based on one or several high quality Brazil
+arabicas, some washed, some dry-processed. They often involve some
+African coffees for winey acidity or enzymatic flowery fruitiness, or
+a high grown Central American for a cleaner acidity.\n\n
+
+Dry processed coffees can be responsible for the attractive crema on
+the cup, among other mechanical factors in the extraction process.
+Wet-processed Central Americans add positive aromatic qualities.
+Robustas, or coffea canephora, are used in cheaper blends, and some
+decent ones, to increase body and produce crema. They also add a
+particular bite to the cup. The notion that true "continental"
+espresso blends have Robusta? Nonsense! In fact the coffee samples
+from small Italian roasters I\'ve had (in green form) appear to be very
+mild, sweet blends with about 40% Brazil Dry-process, 40% Colombian
+and 20%+ Centrals, like Guatemalan. For bite, syrupy or winey fruit,
+and earthiness you can use a DP Ethiopian. Its fun to play with
+Robusta but I personally don\'t like it too much beyond experimentation
+and I personally don\'t enjoy having more caffeine in my coffee than is
+necessary.\n\n
+
+A Colombian-based espresso blend offers a sharper, sweeter flavor but
+won\'t result in as much crema production.\n\n
+
+Do you want it to be sharper and sweeter, with more aromatics: perhaps
+you will want to add Central American coffees. Watch out with
+percentages above 25%, particularly if you like a lighter espresso
+roast. You will be losing some crema and body.\n\n
+
+Do you want more body and sweetness: use a clean Indonesian like a
+Sulawesi or a premium Sumatra. You will be losing some brightness and
+at too light a roast level some of the earthy or herbal qualities can
+become sharper. You can go up to 50% with one of these and some are
+nice even at 100%, but if you are blending it with an other coffee
+that has more delicate features (such as floral wet processed
+Ethiopian) that you were hoping to highlight, I would not use too much
+of one of these coffees for risk of overwhelming them.\n\n
+
+Do you want an earthy aggressive bite and more pungency: try a dry-
+processed Ethiopian. Some are brighter and more aromatic with
+fruitiness and wineyness. Some have great pungency in the darker
+roasts, and are fruitier in the lighter roasts. These produce great
+crema. I often enjoy straight shots of these coffees, but keep it to
+25% or so in most blends.\n\n
+
+Do you want spicy pungency: try a Yemeni coffee. These add wineyness
+too, and great crema. I keep this to 50% or less (normally 25% or so)
+in blends. SOme of the nicer ones have an aromatic sandalwood note
+that when balanced with the winey acidity produce really rich and
+exotic single origin espresso.\n\n
+
+Do you want extreme bite: try an Aged coffee, a Monsooned coffee
+(Indian or better yet the Sulawesi Rantepao) or Robusta. Aged coffees
+and Monsooned add certain funky tastes that you may love, or perhaps
+hate. You just have to give them a try to find out but that is part of
+the fun. Robusta --- I would not go there unless you have too. I
+personally do not like the added caffeine they bring. They increase
+crema, but you also need to keep them below 20% in the blend, I
+personally never go above 15% with them.\n\n
+
+Arabica vs. Robusta? Arabica coffees (that means every coffee we sell
+except those at the very end of our list under the Premium Robusta
+heading) produce a fine crema, with good aromatics, and a lighter
+brown-yellow color. Robusta coffees (from the species coffea canefora)
+make a greater volume of crema, but it has larger "bubbles" and
+dissipates faster. Robusta has about 2x the caffeine of arabica, 2.2
+to 2.4% compared to 1.1 to 1.3% in arabica. It can have a very
+rubbery-medicinal flavor when there is too much in the espresso blend.
+At a low percentage, 10% to 15%, it delivers a nice bite and it\'s
+negative features can be minimized.\n\n
+
+Perhaps you\'ll find that the coffee you chose for a base or even one
+of the accents are appealing to you as an espresso on their own.
+Single Origin Espresso is becoming more prevalent as people are
+experimenting with what an espresso can or should be. Thinking about
+espresso simply as a brewing method rather than a beverage in and of
+itself with predetermined parameters or "rules" to what it is made up
+of and what it should taste like can open up the door to a lot of non-
+traditional and sometimes exciting flavors in a shot. But there are
+definitely coffees that have too much of one quality or another that
+in an espresso extraction are not as enjoyable to me because that
+quality can become exaggerated.\n\n
+
+There\'s a lot of ways to achieve great espresso. It\'s fun to
+experiment and I don\'t know if there is some terminal point where you
+achieve the perfect trans-subjective espresso.(Source Sweet Maria\'s Coffee)\n\n
       </string>
   <string name="proper_tamping">
-        The last factor is Mano or the skill of the barista – that means you.
-More than half the battle is knowing how to use your equipment
-properly. You need to know how to properly fill your filter basket.
-Some espresso lovers will tell you to tamp the ground coffee, others
-will tell you not to. Like all skills, making the perfect espresso
-takes practice so that your every espresso shot has that beautiful
-crema that is the mark of true espresso.
+Tamping the ground espresso is one of the most important factors to
+brewing the perfect shot.
+      \n\n
+      The ground espresso needs  to be densely
+compacted into the portafilter in order for the hot water to be
+uniformly forced through the grounds with the  same pressure
+throughout the entire portafilter.
+
+      \n\nIf the espresso grounds are not
+evenly distributed into the filter the water  will find the weak spots
+resulting in part of the coffee being over extracted and bitter while
+the rest of the coffee is under  extracted and weak. With firm and
+even tamping, the water has no other option but to flow through the
+coffee evenly  creating the perfect espresso shot topped with rich,
+golden crema.\n\n
+
+      To create a solid puck, leveling the ground coffee is important. Prior
+to tamping, make sure you evenly distribute the  coffee without
+packing the grounds or leaving any spaces.\n\n
+
+Uniformly distribute the ground coffee in both depth and  density
+around the basket. Make sure no gaps or breaks occur inside or around
+the perimeter of the basket. Once the ground espresso is evenly
+distributed around the portafilter, grip the portafilter handle in one
+hand and with your other hand press the tamper straight down and apply
+approximately 30 lbs of pressure* followed by a light twist to settle
+any stray grinds.\n\n
+
+If any ground coffee remains on the perimeter of the filter basket,
+use your finger to lightly brush them away without disturbing the
+tamped shot.  After the shot has been brewed and portafilter removed,
+the espresso puck should be solid, relatively dry and evenly
+extracted. If the coffee grounds in the filter are watery and loose,
+try applying more pressure to the tamp and ensure  even distribution
+of grounds.\n\n
+
+Also, check your grind size to ensure the water can pass through at
+the appropriate rate. If  the shot is too slow (over 25-30 seconds)
+adjust to a coarser grind. If the shot is too fast (less than 15-20
+seconds) adjust  to a finer grind. Practice your grinding and tamping
+techniques to perfect the art of brewing espresso.\n\n
+
+(*30 lbs of pressure can be compared to the amount of pressure you
+would use to twist off a very tight jar lid.)\n\n
+      (Source Capresso, Art of Tamping Espresso)
       </string>
   <string name="machine_selection">
-        The third factor is the Macchina or the espresso machine. Thanks to
-many inventors, you now have eay to use tools to help you make your
-espresso. But it will not magically make perfect espresso if you don’t
-know how to use it properly. The Rancilio Silva is considered the best
-by most espresso lovers but feel free to shop around til you find the
-machine that you are comfortable with.
+There are in general four types of espresso machines for home
+baristas. There are as the following.\n\n1. Manual Machines (all steps are controlled by espresso maker)\n\n2.
+Semi Automatic Machines (the suggested one for home baristas IMHO) \n\n3.
+Automatic Machines (the machine does everything except bean prep and
+tamping) \n\n4. Super Automatic Machines (the machine does all the steps
+for you)\n\n
+
+Manual Machines:\n These machines can be expensive and require a set of
+skills that beginning home barista may not have, and so should not be
+selected if one is just into espresso coffee making.\n\n
+
+Semi Automatic Machines:\n These typically feature an automated pump,
+automated temperature controls for the boiler, and activation switches
+to engage and disengage the pump. It is semi-automatic as the espresso
+maker needs to engage and disengage the  pump switch. This is the best
+one for home barista who is interested in making great espresso.\n\n
+
+Automatic Machines:\n These feature a pump, automated temperature
+controls for the boiler, and automated (and frequently programmable)
+preset water volumes selected by pressing a button. Other than bean
+preparation and espresso ground tamping, everything else is done by
+the machine. These machines are for people that wants to have good
+espresso without the hassles.\n\n
+
+Super Automatic Machines:\n These machines does everything with the
+press of a button - grind, dose, tamp, brew, and eject the spent
+espresso puck. It makes ok espresso, but not great espresso. These can
+be expensive and the buyer pays for the convenience.\n\n
       </string>
   <string name="brewing_temperature">
-        The last factor is Mano or the skill of the barista – that means you.
-More than half the battle is knowing how to use your equipment
-properly. You need to know how to properly fill your filter basket.
-Some espresso lovers will tell you to tamp the ground coffee, others
-will tell you not to. Like all skills, making the perfect espresso
-takes practice so that your every espresso shot has that beautiful
-crema that is the mark of true espresso.
+Brew Temperature\n\n
+
+Proper espresso extraction occurs at 90°C to 96°C (195°F to 205°F).
+Lower temperatures accentuate acidic origin flavors, while higher
+temperatures accentuate bitter roast flavors.\n\n
+
+Single boiler home machines with non-adjustable mechanical thermostats
+have their par temperature at the point the thermostat turns off the
+heater. You can brew at a lower temperature by flushing a few seconds
+of water after the heater turns off; and at a higher temperature by
+forcing the heat back on by turning on the steam switch for a few
+seconds (turn it off prior to brewing). This is somewhat hit or miss,
+but can be improved by calibrating the flush and steam switch time
+with a thermocouple thermometer.\n\n
+
+Temperature measuring portafilter Heat exchanger machines are set by
+adjusting the pressurestat, doing a sequence of eight shots or so at
+your normal rhythm, and seeing where the shot temperature settles.
+After that, you should also adjust the flush to get an idling machine
+to that temperature. For one-off experiments or single-shot home use,
+simply adjust the flush amount.\n\n
+
+Machines with electronically controlled brew boilers can be set from
+the front panel without fuss. Vapor bulb thermostats can be adjusted
+inside the machine. Both types should be checked with a thermocouple
+thermometer to confirm the actual brew temperatures.\n\n
+
+(Source Home Barista.com)
       </string>
   <string name="extraction_time">
-        The last factor is Mano or the skill of the barista – that means you.
-More than half the battle is knowing how to use your equipment
-properly. You need to know how to properly fill your filter basket.
-Some espresso lovers will tell you to tamp the ground coffee, others
-will tell you not to. Like all skills, making the perfect espresso
-takes practice so that your every espresso shot has that beautiful
-crema that is the mark of true espresso.
+For a double shot espresso aim for:\n\n
+
+25 seconds \u0026 2oz (60ml).....20 seconds is too short, 30+ seconds is
+too long.\n\n
+
+You should then vary this volume/time, by altering the grind coarser
+or finer, tamping, if done reasonably well should not have a
+significant effect on shot volume (unless it channels badly), but may
+affect when blonding begins.\n\n
+
+The volume is measured using WBC rules as the volume of liquid and
+crema, but in a "normal" environment, this type of strict measurement
+rule is not so useful, as the amount of crema could vary hugely. But
+if your crema settles out to around 8 mm then try to have the 2oz line
+around the top or midpoint of the crema.\n\n
+
+This method will allow you to diagnose problems, as in all cases the
+shot should be stopped when it blondes. So even if you extract 2 oz in
+25 seconds, if it blonded at 20 seconds (and somewhat less volume) you
+should have killed the shot and then looked for the cause of early\n\n
+blonding.
+
+(Source Home-Barista.com)
       </string>
 
 </resources>
