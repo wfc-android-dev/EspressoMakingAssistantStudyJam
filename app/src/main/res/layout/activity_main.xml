@@ -45,6 +45,8 @@
                 android:layout_height="150dp"
                 android:layout_below="@id/maintitletextview"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview1" />
 
@@ -54,6 +56,8 @@
                 android:layout_height="150dp"
                 android:layout_below="@id/maintitletextview"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview2" />
 
@@ -89,6 +93,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview3" />
 
@@ -97,6 +103,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview4" />
 
@@ -132,6 +140,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview5" />
 
@@ -140,6 +150,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_weight="1"
+                android:background="@color/White"
+                android:layout_margin="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/imageview6" />
 
@@ -170,8 +182,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@color/Sienna"
-            android:padding="8dp"
             android:onClick="sendMessage"
+            android:padding="8dp"
             android:text="@string/sendMessage"
             android:textColor="@color/White"
             android:textSize="12sp" />
