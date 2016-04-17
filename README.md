@@ -21,3 +21,6 @@ specific topic (TextView) and finally a button for email intent.
 
 This app does not require permissions. The target sdk is
 23(Marshmallow) and the minimum sdk is 21 (Android 5.0 Lollipop)
+
+dependencies
+    compile 'com.android.support:appcompat-v7:23.3.0'
